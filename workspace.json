@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "projects": {
+    "ui": "packages/ui"
+  },
+  "cli": {
+    "defaultCollection": "@nrwl/react"
+  },
+  "generators": {
+    "@nrwl/react": {
+      "application": {
+        "style": "styled-jsx",
+        "linter": "eslint",
+        "babel": true
+      },
+      "library": {
+        "style": "styled-jsx",
+        "linter": "eslint"
+      },
+      "component": {
+        "style": "styled-jsx"
+      }
+    }
+  }
+}
